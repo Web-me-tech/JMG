@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<!-- IMPLEMENTED USING ONLY PLAIN HTML, CSS & JAVASCRIPT — NO FRAMEWORKS — NO BUILD STEP -->
+<html lang="en-NG">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMG Limited - Powering Solutions. Cooling Nigeria.</title>
+    <meta name="description" content="Nigeria's leading electro-mechanical solutions provider and authorized distributor of Trane Air Conditioning systems. Expert cooling, power, elevators, and renewable solutions.">
+    <meta name="keywords" content="Trane Nigeria, HVAC Lagos, Generators Nigeria, Elevators Lagos, Solar Nigeria, JMG Limited">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="JMG Limited - Powering Solutions. Cooling Nigeria.">
+    <meta property="og:description" content="Nigeria's leading electro-mechanical solutions provider. Trane cooling, reliable power, elevators, and renewables - engineered for Africa.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jmglimited.ng">
+    <meta property="og:image" content="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JMG Limited - Powering Solutions. Cooling Nigeria.">
+    <meta name="twitter:description" content="Nigeria's leading electro-mechanical solutions provider and Trane distributor.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏢%3C/text%3E%3C/svg%3E">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "JMG Limited",
+        "description": "Nigeria's leading electro-mechanical solutions provider and authorized distributor of Trane Air Conditioning systems",
+        "url": "https://jmglimited.ng",
+        "logo": "https://jmglimited.ng/logo.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Plot 1234 Adeola Odeku Street",
+            "addressLocality": "Victoria Island",
+            "addressRegion": "Lagos",
+            "postalCode": "101241",
+            "addressCountry": "NG"
+        },
+        "telephone": "+234-1-234-5678",
+        "email": "info@jmglimited.ng",
+        "foundingDate": "1994",
+        "employee": "500+",
+        "serviceArea": {
+            "@type": "Country",
+            "name": "Nigeria"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="currentColor"/>
+                        <path d="M10 12h20v16H10z" fill="white"/>
+                        <path d="M12 16h16v2H12zm0 4h16v2H12zm0 4h12v2H12z" fill="currentColor"/>
+                    </svg>
+                    <span class="nav__logo-text">JMG Limited</span>
+                </a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item nav__dropdown">
+                        <a href="#" class="nav__link nav__dropdown-toggle" aria-expanded="false">
+                            Solutions
+                            <svg class="nav__dropdown-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="nav__dropdown-menu">
+                            <a href="solutions-cooling.html" class="nav__dropdown-link">
+                                <div class="nav__dropdown-item">
+                                    <div class="nav__dropdown-icon-wrapper">❄️</div>
+                                    <div>
+                                        <div class="nav__dropdown-title">Cooling (Trane)</div>
+                                        <div class="nav__dropdown-desc">VRF, Chillers, HVAC Systems</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="solutions-power.html" class="nav__dropdown-link">
+                                <div class="nav__dropdown-item">
+                                    <div class="nav__dropdown-icon-wrapper">⚡</div>
+                                    <div>
+                                        <div class="nav__dropdown-title">Power Solutions</div>
+                                        <div class="nav__dropdown-desc">Generators, UPS, Switchgear</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="solutions-elevators.html" class="nav__dropdown-link">
+                                <div class="nav__dropdown-item">
+                                    <div class="nav__dropdown-icon-wrapper">🏢</div>
+                                    <div>
+                                        <div class="nav__dropdown-title">Elevators & Escalators</div>
+                                        <div class="nav__dropdown-desc">Passenger, Freight, Modernization</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="solutions-compressors.html" class="nav__dropdown-link">
+                                <div class="nav__dropdown-item">
+                                    <div class="nav__dropdown-icon-wrapper">🔧</div>
+                                    <div>
+                                        <div class="nav__dropdown-title">Compressors</div>
+                                        <div class="nav__dropdown-desc">Oil-free, Industrial, Portable</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="solutions-electrical.html" class="nav__dropdown-link">
+                                <div class="nav__dropdown-item">
+                                    <div class="nav__dropdown-icon-wrapper">🔌</div>
+                                    <div>
+                                        <div class="nav__dropdown-title">Electrical Infrastructure</div>
+                                        <div class="nav__dropdown-desc">Switchgear, Transformers, Panels</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="solutions-solar.html" class="nav__dropdown-link">
+                                <div class="nav__dropdown-item">
+                                    <div class="nav__dropdown-icon-wrapper">☀️</div>
+                                    <div>
+                                        <div class="nav__dropdown-title">Solar Solutions</div>
+                                        <div class="nav__dropdown-desc">Residential, Commercial, Industrial</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="projects.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="resources.html" class="nav__link">Resources</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="careers.html" class="nav__link">Careers</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="news.html" class="nav__link">News</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-toggle__icon theme-toggle__icon--light">☀️</span>
+                        <span class="theme-toggle__icon theme-toggle__icon--dark">🌙</span>
+                    </button>
+                    <a href="#quote-form" class="btn btn--primary btn--sm">Get a Quote</a>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__bg">
+                <img src="/Blue Technology Technological Sense Business Atmosphere Background Wallpaper Image For Free Download - Pngtree.jpg" 
+                     alt="Modern Nigerian cityscape with skyscrapers" 
+                     class="hero__bg-image"
+                     loading="eager">
+                <div class="hero__overlay"></div>
+            </div>
+            
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Powering Solutions.<br>
+                        <span class="hero__title-accent">Cooling Nigeria.</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Trane performance. JMG expertise. From VRF to chillers — engineered for Africa's climate.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#solutions" class="btn btn--primary btn--lg">Explore Solutions</a>
+                        <a href="#quote-form" class="btn btn--outline btn--lg">Request a Quote</a>
+                    </div>
+                    <div class="hero__trust">
+                        OEM-trained engineers • ISO-certified processes • Nationwide support
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KPI Section -->
+        <section class="kpi">
+            <div class="container">
+                <div class="kpi__grid">
+                    <div class="kpi__item">
+                        <div class="kpi__number" data-count="30">0</div>
+                        <div class="kpi__label">Years Experience</div>
+                    </div>
+                    <div class="kpi__item">
+                        <div class="kpi__number" data-count="1000">0</div>
+                        <div class="kpi__label">Projects Completed</div>
+                    </div>
+                    <div class="kpi__item">
+                        <div class="kpi__number" data-count="500">0</div>
+                        <div class="kpi__label">Engineers & Technicians</div>
+                    </div>
+                    <div class="kpi__item">
+                        <div class="kpi__number" data-count="5">0</div>
+                        <div class="kpi__label">Branches Nationwide</div>
+                    </div>
+                </div>
+                
+                <div class="kpi__badges">
+                    <div class="badge">
+                        <img src="/Iso 9001 2015 certification iso 90012015 logo iso 9000 certification _ Premium Vector.jpg" alt="ISO Certification" class="badge__img">
+                    </div>
+                    <div class="badge">
+                        <img src="/online-transaction--digital-payment.jpg" alt="Trane Authorized Distributor" class="badge__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solutions Pillars -->
+        <section class="solutions" id="solutions">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Complete Electro-Mechanical Solutions</h2>
+                    <p class="section__subtitle">
+                        From cooling to power generation, we deliver integrated solutions for Nigeria's infrastructure needs
+                    </p>
+                </div>
+                
+                <div class="pillars">
+                    <div class="pillar">
+                        <div class="pillar__icon">❄️</div>
+                        <h3 class="pillar__title">Cooling (Trane)</h3>
+                        <p class="pillar__desc">Premium HVAC solutions engineered for tropical climates</p>
+                        <a href="cooling.html" class="pillar__link">Learn More →</a>
+                    </div>
+                    
+                    <div class="pillar">
+                        <div class="pillar__icon">⚡</div>
+                        <h3 class="pillar__title">Power Solutions</h3>
+                        <p class="pillar__desc">Reliable generators and power management systems</p>
+                        <a href="power.html" class="pillar__link">Learn More →</a>
+                    </div>
+                    
+                    <div class="pillar">
+                        <div class="pillar__icon">🏢</div>
+                        <h3 class="pillar__title">Elevators & Escalators</h3>
+                        <p class="pillar__desc">Vertical transportation for modern buildings</p>
+                        <a href="elevators.html" class="pillar__link">Learn More →</a>
+                    </div>
+                    
+                    <div class="pillar">
+                        <div class="pillar__icon">🔧</div>
+                        <h3 class="pillar__title">Compressors</h3>
+                        <p class="pillar__desc">Industrial-grade compression solutions</p>
+                        <a href="compressors.html" class="pillar__link">Learn More →</a>
+                    </div>
+                    
+                    <div class="pillar">
+                        <div class="pillar__icon">🔌</div>
+                        <h3 class="pillar__title">Electrical Infrastructure</h3>
+                        <p class="pillar__desc">Switchgear, transformers, and power distribution</p>
+                        <a href="electrical.html" class="pillar__link">Learn More →</a>
+                    </div>
+                    
+                    <div class="pillar">
+                        <div class="pillar__icon">☀️</div>
+                        <h3 class="pillar__title">Solar Solutions</h3>
+                        <p class="pillar__desc">Renewable energy systems for sustainable power</p>
+                        <a href="solutions-solar.html" class="pillar__link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="featured-projects">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Featured Projects</h2>
+                    <p class="section__subtitle">
+                        Delivering excellence across Nigeria's key industries
+                    </p>
+                </div>
+                
+                <div class="project-carousel" id="project-carousel">
+                    <div class="project-carousel__track" id="project-track">
+                        <div class="project-card">
+                            <img src="https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Eko Atlantic Tower HVAC Installation" 
+                                 class="project-card__image"
+                                 loading="lazy">
+                            <div class="project-card__content">
+                                <div class="project-card__tags">
+                                    <span class="tag tag--primary">Commercial</span>
+                                    <span class="tag tag--secondary">Lagos</span>
+                                </div>
+                                <h3 class="project-card__title">Eko Atlantic Tower</h3>
+                                <p class="project-card__desc">Complete HVAC solution with Trane VRF systems</p>
+                                <div class="project-card__specs">
+                                    <span class="spec">2,500 Tons</span>
+                                    <span class="spec">45 Floors</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <img src="https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="University of Lagos Power Plant" 
+                                 class="project-card__image"
+                                 loading="lazy">
+                            <div class="project-card__content">
+                                <div class="project-card__tags">
+                                    <span class="tag tag--primary">Education</span>
+                                    <span class="tag tag--secondary">Lagos</span>
+                                </div>
+                                <h3 class="project-card__title">UNILAG Power Plant</h3>
+                                <p class="project-card__desc">25MW power generation facility with dual-fuel capability</p>
+                                <div class="project-card__specs">
+                                    <span class="spec">25 MW</span>
+                                    <span class="spec">Dual-Fuel</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <img src="https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Transcorp Hilton Abuja Renovation" 
+                                 class="project-card__image"
+                                 loading="lazy">
+                            <div class="project-card__content">
+                                <div class="project-card__tags">
+                                    <span class="tag tag--primary">Hospitality</span>
+                                    <span class="tag tag--secondary">Abuja</span>
+                                </div>
+                                <h3 class="project-card__title">Transcorp Hilton</h3>
+                                <p class="project-card__desc">Hotel HVAC modernization and elevator upgrade</p>
+                                <div class="project-card__specs">
+                                    <span class="spec">800 Tons</span>
+                                    <span class="spec">12 Elevators</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <img src="https://images.pexels.com/photos/236705/pexels-photo-236705.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Shoprite Mall Power Solution" 
+                                 class="project-card__image"
+                                 loading="lazy">
+                            <div class="project-card__content">
+                                <div class="project-card__tags">
+                                    <span class="tag tag--primary">Retail</span>
+                                    <span class="tag tag--secondary">Port Harcourt</span>
+                                </div>
+                                <h3 class="project-card__title">Shoprite Mall PH</h3>
+                                <p class="project-card__desc">Integrated cooling and backup power systems</p>
+                                <div class="project-card__specs">
+                                    <span class="spec">1,200 Tons</span>
+                                    <span class="spec">5 MW Backup</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-carousel__controls">
+                        <button class="carousel-btn carousel-btn--prev" id="prev-btn" aria-label="Previous project">
+                            ←
+                        </button>
+                        <button class="carousel-btn carousel-btn--next" id="next-btn" aria-label="Next project">
+                            →
+                        </button>
+                    </div>
+                    
+                    <div class="project-carousel__pagination" id="carousel-pagination">
+                        <!-- Pagination dots will be generated by JS -->
+                    </div>
+                </div>
+                
+                <div class="section__cta">
+                    <a href="projects.html" class="btn btn--outline">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Client Testimonials</h2>
+                    <p class="section__subtitle">
+                        Trusted by Nigeria's leading organizations
+                    </p>
+                </div>
+                
+                <div class="testimonial-carousel" id="testimonial-carousel">
+                    <div class="testimonial-carousel__track">
+                        <div class="testimonial active">
+                            <div class="testimonial__content">
+                                <div class="testimonial__quote">
+                                    "JMG Limited delivered exceptional HVAC solutions for our data center. Their Trane systems have maintained perfect temperature control with 99.9% uptime over two years."
+                                </div>
+                                <div class="testimonial__author">
+                                    <div class="testimonial__name">Adebayo Johnson</div>
+                                    <div class="testimonial__title">CTO, MainOne Cable</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <div class="testimonial__content">
+                                <div class="testimonial__quote">
+                                    "The power generation plant JMG installed has transformed our manufacturing operations. Reliable power supply has increased our productivity by 40%."
+                                </div>
+                                <div class="testimonial__author">
+                                    <div class="testimonial__name">Fatima Abdullahi</div>
+                                    <div class="testimonial__title">Plant Manager, Dangote Cement</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <div class="testimonial__content">
+                                <div class="testimonial__quote">
+                                    "From design to commissioning, JMG's elevator solutions exceeded our expectations. The modernization project was completed ahead of schedule with zero downtime."
+                                </div>
+                                <div class="testimonial__author">
+                                    <div class="testimonial__name">Emeka Okafor</div>
+                                    <div class="testimonial__title">Facilities Director, GTBank Tower</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-banner">
+                    <div class="cta-banner__content">
+                        <h2 class="cta-banner__title">Need a turnkey MEP partner?</h2>
+                        <p class="cta-banner__desc">
+                            Get expert consultation and competitive pricing for your next project
+                        </p>
+                    </div>
+                    <div class="cta-banner__actions">
+                        <a href="contact.html" class="btn btn--primary btn--lg">Talk to Sales</a>
+                        <a href="#" class="btn btn--outline btn--lg" onclick="downloadBrochure('company-profile')">
+                            Download Company Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Form Section -->
+        <section class="quote-form-section" id="quote-form">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Request a Quote</h2>
+                    <p class="section__subtitle">
+                        Get a customized solution for your project requirements
+                    </p>
+                </div>
+                
+                <div class="quote-form-wrapper">
+                    <form class="quote-form" id="multi-step-form">
+                        <!-- Step 1: Contact Information -->
+                        <div class="form-step active" data-step="1">
+                            <h3 class="form-step__title">Contact Information</h3>
+                            
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" class="form-input" required>
+                                    <div class="form-error" id="firstName-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" class="form-input" required>
+                                    <div class="form-error" id="lastName-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form-input" required>
+                                    <div class="form-error" id="email-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="+234 xxx xxx xxxx" required>
+                                    <div class="form-error" id="phone-error"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--primary" onclick="nextStep()">Continue</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 2: Company Information -->
+                        <div class="form-step" data-step="2">
+                            <h3 class="form-step__title">Company Information</h3>
+                            
+                            <div class="form-grid">
+                                <div class="form-group form-group--full">
+                                    <label for="company" class="form-label">Company Name *</label>
+                                    <input type="text" id="company" name="company" class="form-input" required>
+                                    <div class="form-error" id="company-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="city" class="form-label">City *</label>
+                                    <select id="city" name="city" class="form-input" required>
+                                        <option value="">Select City</option>
+                                        <option value="lagos">Lagos</option>
+                                        <option value="abuja">Abuja</option>
+                                        <option value="port-harcourt">Port Harcourt</option>
+                                        <option value="kano">Kano</option>
+                                        <option value="ibadan">Ibadan</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <div class="form-error" id="city-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="industry" class="form-label">Industry</label>
+                                    <select id="industry" name="industry" class="form-input">
+                                        <option value="">Select Industry</option>
+                                        <option value="healthcare">Healthcare</option>
+                                        <option value="hospitality">Hospitality</option>
+                                        <option value="retail">Retail</option>
+                                        <option value="industrial">Industrial</option>
+                                        <option value="residential">Residential</option>
+                                        <option value="education">Education</option>
+                                        <option value="government">Government</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevStep()">Back</button>
+                                <button type="button" class="btn btn--primary" onclick="nextStep()">Continue</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 3: Project Requirements -->
+                        <div class="form-step" data-step="3">
+                            <h3 class="form-step__title">Project Requirements</h3>
+                            
+                            <div class="form-group form-group--full">
+                                <label class="form-label">Services Required *</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services" value="cooling" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>
+                                        Cooling (HVAC/Trane)
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services" value="power" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>
+                                        Power Solutions
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services" value="elevators" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>
+                                        Elevators & Escalators
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services" value="compressors" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>
+                                        Compressors
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services" value="electrical" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>
+                                        Electrical Infrastructure
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services" value="solar" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>
+                                        Solar Solutions
+                                    </label>
+                                </div>
+                                <div class="form-error" id="services-error"></div>
+                            </div>
+                            
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="budget" class="form-label">Project Budget (₦)</label>
+                                    <select id="budget" name="budget" class="form-input">
+                                        <option value="">Select Budget Range</option>
+                                        <option value="0-5m">Under ₦5M</option>
+                                        <option value="5-25m">₦5M - ₦25M</option>
+                                        <option value="25-100m">₦25M - ₦100M</option>
+                                        <option value="100m+">₦100M+</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="timeline" class="form-label">Project Timeline</label>
+                                    <select id="timeline" name="timeline" class="form-input">
+                                        <option value="">Select Timeline</option>
+                                        <option value="immediate">Immediate (< 1 month)</option>
+                                        <option value="3months">1-3 months</option>
+                                        <option value="6months">3-6 months</option>
+                                        <option value="longer">6+ months</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group form-group--full">
+                                <label for="message" class="form-label">Project Details</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Please describe your project requirements, technical specifications, or any specific needs..."></textarea>
+                            </div>
+                            
+                            <!-- Honeypot field (hidden) -->
+                            <div class="honeypot" style="display: none;">
+                                <input type="text" name="honeypot" id="honeypot" tabindex="-1">
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="button" class="btn btn--outline" onclick="prevStep()">Back</button>
+                                <button type="submit" class="btn btn--primary" id="submit-btn">
+                                    Submit Quote Request
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Progress Indicator -->
+                        <div class="form-progress">
+                            <div class="progress-step active" data-step="1">
+                                <div class="progress-step__number">1</div>
+                                <div class="progress-step__label">Contact</div>
+                            </div>
+                            <div class="progress-step" data-step="2">
+                                <div class="progress-step__number">2</div>
+                                <div class="progress-step__label">Company</div>
+                            </div>
+                            <div class="progress-step" data-step="3">
+                                <div class="progress-step__number">3</div>
+                                <div class="progress-step__label">Project</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter__content">
+                    <div class="newsletter__text">
+                        <h3 class="newsletter__title">Stay Updated</h3>
+                        <p class="newsletter__desc">
+                            Get the latest industry insights and project updates delivered to your inbox
+                        </p>
+                    </div>
+                    <form class="newsletter__form" id="newsletter-form">
+                        <div class="newsletter__input-group">
+                            <input type="email" 
+                                   id="newsletter-email" 
+                                   name="email" 
+                                   class="newsletter__input" 
+                                   placeholder="Enter your email address" 
+                                   required>
+                            <button type="submit" class="newsletter__btn">Subscribe</button>
+                        </div>
+                        <p class="newsletter__privacy">
+                            We respect your privacy. Unsubscribe at any time.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
